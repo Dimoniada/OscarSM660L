@@ -8,7 +8,7 @@ If err.number <> 0 Then
     WScript.Quit
 End If
 
-helpText = "A program ""repairs"" LNG key on OscarSM660L keyboard." &_
+helpText = "The program ""repairs"" LNG key on OscarSM660L keyboard." &_
 		vbCrLf & "While user login it installs a hook on keyboard." &_
 		vbCrLf & "The hook replaces RCtrl+RShift whith LAlt+LShift."
 
